@@ -6,7 +6,7 @@ using [double dispatch](https://en.wikipedia.org/wiki/Double_dispatch). If you d
 [see below](#why-do-i-may-need-it)
 
 
-** Note ** that this is currently just poof-of-concept implementation. 
+***Note that this is currently just poof-of-concept implementation.*** 
 
 ## Installation
 
