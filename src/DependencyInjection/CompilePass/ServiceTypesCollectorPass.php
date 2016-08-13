@@ -1,8 +1,8 @@
 <?php
 
-namespace Fesor\DIMagic\CompilePass;
+namespace Fesor\DIMagic\DependencyInjection\CompilePass;
 
-use Fesor\DIMagic\ServiceResolver;
+use Fesor\DIMagic\DependencyInjection\ServiceResolver;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;

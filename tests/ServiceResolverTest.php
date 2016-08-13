@@ -2,7 +2,7 @@
 
 namespace Fesor\DIMagic\Tests;
 
-use Fesor\DIMagic\ServiceResolver;
+use Fesor\DIMagic\DependencyInjection\ServiceResolver;
 use Fesor\DIMagic\Tests\Fixtures\Services\DecoratedService;
 use Fesor\DIMagic\Tests\Fixtures\Services\Service;
 use PHPUnit\Framework\TestCase;

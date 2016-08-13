@@ -2,12 +2,11 @@
 
 namespace Fesor\DIMagic\Tests;
 
-use Fesor\DIMagic\CompilePass\ServiceTypesCollectorPass;
+use Fesor\DIMagic\DependencyInjection\CompilePass\ServiceTypesCollectorPass;
 use Fesor\DIMagic\Tests\Fixtures\Services\DecoratedService;
 use Fesor\DIMagic\Tests\Fixtures\Services\Service;
 use Fesor\DIMagic\Tests\Fixtures\Services\ServiceInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Parameter;
 use Symfony\Component\DependencyInjection\Reference;
 
 class ServiceTypeResolverCompilePassTest extends \PHPUnit\Framework\TestCase
