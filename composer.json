@@ -1,6 +1,6 @@
 {
     "name": "fesor/di_magic",
-    "description": "Adds some nasty magic for symfony dependency injection",
+    "description": "Dependency Injection in controllers using Double Dispatch!",
     "type": "library",
     "require": {
         "symfony/dependency-injection": "^3.1",
