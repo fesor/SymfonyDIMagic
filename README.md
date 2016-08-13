@@ -65,7 +65,7 @@ and preparing response we are now flexible as never before!
 
 ## Limitations
 
-** This bundle doesn't provide you autowiring of method calls! **
+**This bundle doesn't provide you autowiring of method calls!**
 
 All services should be registered in container, no runtime autowiring will be provided. If you are to lazy to register
 services manually, well... you coudl add compile pass which will register all classes in specific directory as services.
