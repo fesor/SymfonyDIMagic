@@ -3,7 +3,7 @@ Symfony Dependency Injection Magic
 
 This bundle aims to reduce usage of service locator in Symfony's Controllers by providing you a way to inject services
 using [double dispatch](https://en.wikipedia.org/wiki/Double_dispatch). If you don't know why this may be usefull,
-[see below](# Why do I may need it?)
+[see below](#why-do-i-may-need-it)
 
 
 ** Note ** that this is currently just poof-of-concept implementation. 
