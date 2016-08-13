@@ -2,7 +2,7 @@ Symfony Dependency Injection Magic
 ====================================
 
 This bundle aims to reduce usage of service locator in Symfony's Controllers by providing you a way to inject services
-using [double dispatch](https://en.wikipedia.org/wiki/Double_dispatch). If you don't know why this may be usefull,
+using [double dispatch](https://en.wikipedia.org/wiki/Double_dispatch). If you don't know why this may be useful,
 [see below](#why-do-i-may-need-it)
 
 
@@ -17,7 +17,7 @@ TODO
 First of all, lets be clear. It's OK to use [service locator is controllers](http://davedevelopment.co.uk/2016/06/01/service-locators-have-their-place.html)
 since we should't care about coupling in controllers since it already tightly coupled to framework.
 
-But service locator usage has it's onw big disatwantage: implicit dependency management. 
+But service locator usage has it's onw big disadvantage: implicit dependency management. 
 You can't use all this cool refactoring tools that IDE provide you without some plugins.
 
 ## Controllers as Service
@@ -68,7 +68,7 @@ and preparing response we are now flexible as never before!
 **This bundle doesn't provide you autowiring of method calls!**
 
 All services should be registered in container, no runtime autowiring will be provided. If you are to lazy to register
-services manually, well... you coudl add compile pass which will register all classes in specific directory as services.
+services manually, well... you could add compile pass which will register all classes in specific directory as services.
 This is much more flexible solution.
 
 ## Contribution
