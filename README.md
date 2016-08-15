@@ -12,10 +12,9 @@ using [double dispatch](https://en.wikipedia.org/wiki/Double_dispatch). If you d
 
 TODO
 
-## Why do I may need it?
+## Why it can be needed 
 
-First of all, lets be clear. It's OK to use [service locator is controllers](http://davedevelopment.co.uk/2016/06/01/service-locators-have-their-place.html)
-since we should't care about coupling in controllers since it already tightly coupled to framework.
+First of all, lets be clear. It's OK to use [service locator in controllers](http://davedevelopment.co.uk/2016/06/01/service-locators-have-their-place.html) cause we shouldn't care about coupling in controllers since it is already tightly coupled to framework.
 
 But service locator usage has it's onw big disadvantage: implicit dependency management. 
 You can't use all this cool refactoring tools that IDE provide you without some plugins.
